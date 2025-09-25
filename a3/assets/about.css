@@ -1,0 +1,40 @@
+#about{
+    margin: 30px;
+    font-family: sans-serif;
+}
+
+#about .title h1{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.container .text h1{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.container .text ul {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.container .text ul li{
+    padding: 10px;
+}
+
+.container .text a{
+    text-decoration: none;
+    color: #fff;
+    border: .2px solid;
+    border-radius: 4px;
+    background: rgb(187, 18, 18);
+    padding: 10px 20px 10px 15px;
+}
